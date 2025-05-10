@@ -1,0 +1,93 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cart--contianor {
+  display: flex;
+
+  border-radius: 1rem;
+  background-color: #ffffff;
+  width: 600px;
+  height: 450px;
+}
+@media screen and (max-width: 375px) {
+  .cart {
+    width: 371px;
+    height: 667px;
+  }
+
+  .cart--contianor {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    height: 611px;
+  }
+  .logo--img {
+    width: 343px;
+    height: 240px;
+    object-fit: cover;
+  }
+  .div--name {
+  }
+  .div--name__aycin {
+    margin-bottom: 1.6rem;
+  }
+  .div--namba {
+    margin-bottom: 2rem;
+  }
+  .div--namba1 {
+    margin-bottom: 2.4rem;
+  }
+  .div--titl {
+    margin-bottom: 2.4rem;
+  }
+}
+
+.div--aycin {
+  padding: 3.2rem 3.2rem;
+}
+.div--name {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 100%;
+  letter-spacing: 0.5rem;
+  color: #6c7289;
+  margin-bottom: 2rem;
+}
+.div--name__aycin {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+
+  color: #1c232b;
+  margin-bottom: 2.4rem;
+}
+.div--titl {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #6c7289;
+  margin-bottom: 2.9rem;
+}
+.nambar {
+  margin-bottom: 4.4rem;
+}
+.div--namba {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1rem;
+  color: #3d8168;
+  //   margin-bottom: 3rem;
+}
+.div--namba1 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #6c7289;
+}

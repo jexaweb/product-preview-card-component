@@ -1,0 +1,15 @@
+.btn {
+  font-family: "Montserrat";
+  border-radius: 0.8rem;
+  padding: 1.5rem 6.2rem 1.5rem 6.3rem;
+  color: white;
+  background-color: #3d8168;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 100%;
+  word-spacing: 0.1rem;
+
+  &:hover {
+    background-color: #1a4032;
+  }
+}
